@@ -1,0 +1,38 @@
+.shoeform-main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    padding: 2%;
+}
+
+.shoeform-main > div{
+    display: flex;
+}
+
+.shoeform-main > div > div{
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    padding: 1%;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: large;
+}
+
+.add-btn{
+    width: 100px;
+    height: 3vmax;
+    margin-top: 21px;
+    background: green;
+    border: none;
+    color: #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+}

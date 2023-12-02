@@ -1,0 +1,25 @@
+.list-container{
+    height: max-content;
+    padding-bottom: 2%;
+}
+
+.list-main{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 2%;
+}
+
+.list-main > div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-main > div > button{
+    width: 130px;
+    height: 2vmax;
+    background: gray;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px
+}

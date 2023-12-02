@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    color: #ffffff;
+    align-items: center;
+}
+
+.header > button{
+    width: 5%;
+    height: 3vmax;
+    border-radius: 25px;
+    border: none;
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+}
